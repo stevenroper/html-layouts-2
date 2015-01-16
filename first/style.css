@@ -1,7 +1,7 @@
-* {
+/** {
 	outline: 1px solid red;
 }
-
+*/
 html, body {
 	width: 100%;
 	height: 100%;
@@ -13,11 +13,15 @@ html, body {
 	height: 100%;
 	padding: 10px;
 	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .header {
 	width: 100%;
-	height: 20%;
+	height: 15%;
 	float: left;
 	display: flex;
 	justify-content: space-between;
@@ -26,7 +30,7 @@ html, body {
 
 .small__box {
 	height: 100%;
-	width: 30%;
+	width: 31%;
 }
 
 .red {
@@ -43,15 +47,16 @@ html, body {
 
 .text {
 	width: 100%;
-	height: 30%;
+	height: 25%;
 	float: left;
 	overflow: auto;
 	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
 }
 
 .thick__box {
 	width: 100%;
-	height: 30%;
+	height: 35%;
 	float: left;
 }
 
@@ -69,7 +74,7 @@ html, body {
 
 .footer {
 	width: 100%;
-	height: 20%;
+	height: 15%;
 	float: left;
 }
 
