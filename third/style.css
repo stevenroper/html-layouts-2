@@ -1,7 +1,3 @@
-/** {
-	outline: 1px solid red;
-}*/
-
 html, body {
 	height: 100%;
 	width: 100%;
@@ -22,13 +18,6 @@ html, body {
 	font-size: 14px;
 	margin-right: 25px;
 }
-
-/*.top-link {
-	height: 100%;
-	box-sizing: border-box;
-	display: inline-block;
-	color: #fff;
-}*/
 
 .main__body {
 	width: 100%;
